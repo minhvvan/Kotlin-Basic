@@ -5,5 +5,7 @@ fun main(){
 //    .sortedBy{ it }
 //    .map {it.toUpperCase()}
 //    .forEach{println(it)}
-    test()
+//    test()
+    testArrayCreate()
 }
+
