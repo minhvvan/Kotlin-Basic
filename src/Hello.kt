@@ -11,7 +11,9 @@ fun main(){
 //    whenBasic(10)
 //    hasPrefix("prefix")
 //    indexPrint()
-    UsingWithIndex()
+//    UsingWithIndex()
+    foo4()
 }
+
 
 

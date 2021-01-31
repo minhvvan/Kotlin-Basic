@@ -44,3 +44,21 @@ fun UsingWithIndex(){
         println("$index: $value")
     }
 }
+
+fun foo3(){
+    var ints = listOf(0, 1, 2, 3)
+    ints.forEach label@{
+        if(it == 1) return@label
+        print(it)
+    }
+    print("end")
+}
+
+fun foo4(){
+    var ints = listOf(0, 1, 2, 3)
+    ints.forEach {
+        if(it == 1) return@forEach
+        print(it)
+    }
+    print("end")
+}
