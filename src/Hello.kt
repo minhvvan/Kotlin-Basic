@@ -6,6 +6,12 @@ fun main(){
 //    .map {it.toUpperCase()}
 //    .forEach{println(it)}
 //    test()
-    testArrayCreate()
+//    testArrayCreate()
+//    ifElse(10,15)
+//    whenBasic(10)
+//    hasPrefix("prefix")
+//    indexPrint()
+    UsingWithIndex()
 }
+
 
