@@ -12,7 +12,8 @@ fun main(){
 //    hasPrefix("prefix")
 //    indexPrint()
 //    UsingWithIndex()
-    foo4()
+    val obj = C()
+    obj.temp()
 }
 
 
