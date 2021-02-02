@@ -12,8 +12,11 @@ fun main(){
 //    hasPrefix("prefix")
 //    indexPrint()
 //    UsingWithIndex()
-    val obj = C()
-    obj.temp()
+//    val obj = C()
+//    obj.temp()
+    var obj = MyTest()
+    obj.setup()
+    obj.test()
 }
 
 
