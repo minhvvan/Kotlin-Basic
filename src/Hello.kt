@@ -14,9 +14,13 @@ fun main(){
 //    UsingWithIndex()
 //    val obj = C()
 //    obj.temp()
-    var obj = MyTest()
-    obj.setup()
-    obj.test()
+//    var obj = MyTest()
+//    obj.setup()
+//    obj.test()
+    val jack = User(name = "Jack", age = 1)
+    val olderJack = jack.copy(age = 2)
+
+    print(olderJack)
 }
 
 
